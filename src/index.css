@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #e8eddf;
+  --text-color: #333533;
+}
+
+.dark {
+  --bg-color: #333533;
+  --text-color: #e8eddf;
+}
+
+@layer base {
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+}
+
+@layer components {
+  .layer {
+    @apply max-w-5xl mx-auto px-4;
+  }
+}
