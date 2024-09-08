@@ -13,7 +13,7 @@ const Error = () => {
           to={'/'}
           className='font-bold bg-orange-500 px-4 py-1 rounded text-2xl'
         >
-          Back Home
+          Back Home no page found
         </Link>
       </div>
     </section>
