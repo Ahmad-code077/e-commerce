@@ -11,7 +11,6 @@ const initialState = {
   singleItem: [],
   filtered: [],
 };
-// something coming
 
 export const Allitems = createAsyncThunk(
   'Allitems',
